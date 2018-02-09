@@ -25,6 +25,8 @@
       if (guess === computerGuess) {
         wins++;
         winFlag = true;
+        //and start the game over.
+        trii=9;
       }
       if (guessStr == "") {
         guessStr = guess;
